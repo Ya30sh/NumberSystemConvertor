@@ -1,0 +1,20 @@
+.banner{
+	background-color: #1b6fb4;
+	color: whitesmoke;
+	text-align: center;
+	padding: 2px;
+	margin-bottom: 50px;
+}
+
+.theme{
+	background-color: #1b6fb4;
+	color: whitesmoke;
+}
+
+.theme:hover{
+	background-color: #12456f;
+}
+
+body{
+	background-image: url("bg.jpeg");
+}

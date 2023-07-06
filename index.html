@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="banner">
+		<h1>Number Sytem Convertor</h1>
+	</div>
+
+	<div class="container">
+		<div class="row mb-5">
+			<div class="col">
+				<input type="text" name="" id="que" class="form-control" placeholder="Enter the Digit">
+			</div>
+
+			<div class="col">
+				<input type="text" name="" id= "ans"class="form-control" placeholder="Your output will be shown here as per your selected number system">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="btn-group col">
+				<button type="button" class="btn theme dropdown-toggle form-control" data-bs-toggle="dropdown" id="value">
+					Action
+				</button>
+				<ul class="dropdown-menu">
+					<li class="dropdown-item" id="item" onclick="dropdown('Binary')">Binary</li>
+					<li class="dropdown-item" id="item" onclick="dropdown('Base-3')">Base-3</li>
+					<li class="dropdown-item" id="item" onclick="dropdown('Base-4')">Base-4</li>
+					<li class="dropdown-item" id="item" onclick="dropdown('Base-5')">Base-5</li>
+					<li class="dropdown-item" id="item" onclick="dropdown('Base-6')">Base-6</li>
+					<li class="dropdown-item" id="item" onclick="dropdown('Base-7')">Base-7</li>
+					<li class="dropdown-item" id="item" onclick="dropdown('Octal')">Octal</li>
+					<li class="dropdown-item" id="item" onclick="dropdown('Base-9')">Base-9</li>
+					<li class="dropdown-item" id="item" onclick="dropdown('Decimal')">Decimal</li>
+					<li class="dropdown-item" id="item" onclick="dropdown('Base-11')">Base-11</li>
+					<li class="dropdown-item" id="item" onclick="dropdown('Base-12')">Base-12</li>
+					<li class="dropdown-item" id="item" onclick="dropdown('Base-13')">Base-13</li>
+					<li class="dropdown-item" id="item" onclick="dropdown('Base-14')">Base-14</li>
+					<li class="dropdown-item" id="item" onclick="dropdown('Base-15')">Base-15</li>
+					<li class="dropdown-item" id="item" onclick="dropdown('Hexa-Decimal')">Hexa-Decimal</li>
+				</ul>
+			</div>
+
+			<div class="btn-group col">
+				<div class="btn-group col">
+					<button type="button" class="btn theme dropdown-toggle form-control" data-bs-toggle="dropdown" id="value2">
+						Action
+					</button>
+					<ul class="dropdown-menu">
+						<li class="dropdown-item" id="item" onclick="dropdown2('Binary')">Binary</li>
+						<li class="dropdown-item" id="item" onclick="dropdown2('Base-3')">Base-3</li>
+						<li class="dropdown-item" id="item" onclick="dropdown2('Base-4')">Base-4</li>
+						<li class="dropdown-item" id="item" onclick="dropdown2('Base-5')">Base-5</li>
+						<li class="dropdown-item" id="item" onclick="dropdown2('Base-6')">Base-6</li>
+						<li class="dropdown-item" id="item" onclick="dropdown2('Base-7')">Base-7</li>
+						<li class="dropdown-item" id="item" onclick="dropdown2('Octal')">Octal</li>
+						<li class="dropdown-item" id="item" onclick="dropdown2('Base-9')">Base-9</li>
+						<li class="dropdown-item" id="item" onclick="dropdown2('Decimal')">Decimal</li>
+						<li class="dropdown-item" id="item" onclick="dropdown2('Base-11')">Base-11</li>
+						<li class="dropdown-item" id="item" onclick="dropdown2('Base-12')">Base-12</li>
+						<li class="dropdown-item" id="item" onclick="dropdown2('Base-13')">Base-13</li>
+						<li class="dropdown-item" id="item" onclick="dropdown2('Base-14')">Base-14</li>
+						<li class="dropdown-item" id="item" onclick="dropdown2('Base-15')">Base-15</li>
+						<li class="dropdown-item" id="item" onclick="dropdown2('Hexa-Decimal')">Hexa-Decimal</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row mt-3">
+				<div class="col"></div>
+				<div class="d-grid gap-2 col">
+					<button class="btn theme" type="button" id="convert" onclick="convert()">convert</button>
+				</div>
+				<div class="col"></div>
+			</div>
+
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+	</html>
