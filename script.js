@@ -748,7 +748,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(3,-(i+)))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(3,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -1048,7 +1048,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(7,-(i+)))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(7,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -6313,7 +6313,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(16,-(i+1))).)toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(16,-(i+1)))).toFixed(4)));
 				}
 			}
 
