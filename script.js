@@ -1780,7 +1780,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<=temparray2.length;i++){
+			for(i=1;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
