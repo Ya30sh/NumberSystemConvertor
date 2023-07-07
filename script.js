@@ -40,13 +40,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=2){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(2,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(2,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -81,13 +81,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=3){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(3,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(3,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -122,13 +122,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=4){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(4,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(4,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -163,13 +163,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=5){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(5,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(5,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -204,13 +204,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=6){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(6,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(6,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -245,13 +245,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=7){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(7,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(7,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -286,13 +286,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=4){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -327,13 +327,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=4){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -371,7 +371,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i] == ('A') || temparray2[i] == ('a')){
 					temparray2[i] = 10;
 				}
@@ -379,7 +379,7 @@ function convert(){
 					flag = 1;
 					break;
 				}else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(11,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(11,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -420,7 +420,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]==('A') || temparray2[i]==('a')){
 					temparray2[i] =10;
 				}
@@ -432,7 +432,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(12,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(12,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -476,7 +476,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -491,7 +491,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(13,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(13,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -538,7 +538,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -556,7 +556,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(14,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(14,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -606,7 +606,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -627,7 +627,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(15,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(15,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -680,7 +680,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -704,7 +704,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(16,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(16,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -742,13 +742,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=3){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(3,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(3,-(i+)))).toFixed(4)));
 				}
 			}
 
@@ -817,13 +817,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=4){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(4,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(4,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -892,13 +892,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=5){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(5,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(5,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -967,13 +967,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=6){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(6,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(6,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -1042,13 +1042,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=7){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(7,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(7,-(i+)))).toFixed(4)));
 				}
 			}
 
@@ -1117,13 +1117,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=8){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -1192,13 +1192,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=9){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(9,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(9,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -1306,7 +1306,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i] == ('A') || temparray2[i] == ('a')){
 					temparray2[i] = 10;
 				}
@@ -1314,7 +1314,7 @@ function convert(){
 					flag = 1;
 					break;
 				}else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(11,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(11,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -1388,7 +1388,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]==('A') || temparray2[i]==('a')){
 					temparray2[i] =10;
 				}
@@ -1400,7 +1400,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(12,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(12,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -1477,7 +1477,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -1492,7 +1492,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(13,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(13,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -1572,7 +1572,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -1590,7 +1590,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(14,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(14,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -1673,7 +1673,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -1694,7 +1694,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(15,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(15,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -1780,7 +1780,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -1804,7 +1804,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(16,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(16,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -1872,13 +1872,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=2){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(2,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(2,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -1950,13 +1950,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=4){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(4,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(4,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -2025,13 +2025,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=5){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(5,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(5,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -2099,13 +2099,13 @@ function convert(){
 		flag = 0;
 	}
 	else{
-		for(i=1;i<temparray2.length;i++){
+		for(i=0;i<temparray2.length;i++){
 			if(parseInt(temparray2[i]) >=6){
 				flag = 1;
 				break;
 			}
 			else{
-				arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(6,-i))).toFixed(4)));
+				arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(6,-(i+1)))).toFixed(4)));
 			}
 		}
 
@@ -2172,13 +2172,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=7){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(7,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(7,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -2246,13 +2246,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=4){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -2320,13 +2320,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=4){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -2433,7 +2433,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i] == ('A') || temparray2[i] == ('a')){
 					temparray2[i] = 10;
 				}
@@ -2441,7 +2441,7 @@ function convert(){
 					flag = 1;
 					break;
 				}else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(11,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(11,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -2515,7 +2515,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]==('A') || temparray2[i]==('a')){
 					temparray2[i] =10;
 				}
@@ -2527,7 +2527,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(12,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(12,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -2604,7 +2604,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -2619,7 +2619,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(13,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(13,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -2699,7 +2699,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -2717,7 +2717,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(14,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(14,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -2800,7 +2800,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -2821,7 +2821,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(15,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(15,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -2907,7 +2907,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -2931,7 +2931,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(16,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(16,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -2999,13 +2999,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=2){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(2,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(2,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -3074,13 +3074,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=3){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(3,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(3,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -3151,13 +3151,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=5){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(5,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(5,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -3225,13 +3225,13 @@ function convert(){
 		flag = 0;
 	}
 	else{
-		for(i=1;i<temparray2.length;i++){
+		for(i=0;i<temparray2.length;i++){
 			if(parseInt(temparray2[i]) >=6){
 				flag = 1;
 				break;
 			}
 			else{
-				arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(6,-i))).toFixed(4)));
+				arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(6,-(i+1)))).toFixed(4)));
 			}
 		}
 
@@ -3298,13 +3298,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=7){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(7,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(7,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -3372,13 +3372,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=4){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -3446,13 +3446,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=4){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(9,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -3559,7 +3559,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i] == ('A') || temparray2[i] == ('a')){
 					temparray2[i] = 10;
 				}
@@ -3567,7 +3567,7 @@ function convert(){
 					flag = 1;
 					break;
 				}else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(11,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(11,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -3641,7 +3641,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]==('A') || temparray2[i]==('a')){
 					temparray2[i] =10;
 				}
@@ -3653,7 +3653,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(12,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(12,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -3730,7 +3730,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -3745,7 +3745,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(13,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(13,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -3825,7 +3825,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -3843,7 +3843,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(14,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(14,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -3926,7 +3926,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -3947,7 +3947,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(15,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(15,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -4033,7 +4033,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -4057,7 +4057,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(16,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(16,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -4125,13 +4125,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=2){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(2,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(2,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -4200,13 +4200,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=3){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(3,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(3,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -4274,13 +4274,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=4){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(4,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(4,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -4351,13 +4351,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=6){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(6,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(6,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -4425,13 +4425,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=7){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(7,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(7,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -4499,13 +4499,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=4){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -4573,13 +4573,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=4){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -4686,7 +4686,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i] == ('A') || temparray2[i] == ('a')){
 					temparray2[i] = 10;
 				}
@@ -4694,7 +4694,7 @@ function convert(){
 					flag = 1;
 					break;
 				}else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(11,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(11,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -4768,7 +4768,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]==('A') || temparray2[i]==('a')){
 					temparray2[i] =10;
 				}
@@ -4780,7 +4780,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(12,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(12,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -4857,7 +4857,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -4872,7 +4872,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(13,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(13,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -4952,7 +4952,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -4970,7 +4970,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(14,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(14,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -5053,7 +5053,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -5074,7 +5074,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(15,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(15,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -5160,7 +5160,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -5184,7 +5184,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(16,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(16,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -5252,13 +5252,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=2){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(2,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(2,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -5327,13 +5327,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=3){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(3,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(3,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -5401,13 +5401,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=4){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(4,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(4,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -5475,13 +5475,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=5){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(5,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(5,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -5554,13 +5554,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=7){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(7,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(7,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -5628,13 +5628,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=4){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -5702,13 +5702,13 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(parseInt(temparray2[i]) >=4){
 					flag = 1;
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(8,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -5815,7 +5815,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i] == ('A') || temparray2[i] == ('a')){
 					temparray2[i] = 10;
 				}
@@ -5823,7 +5823,7 @@ function convert(){
 					flag = 1;
 					break;
 				}else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(11,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(11,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -5897,7 +5897,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]==('A') || temparray2[i]==('a')){
 					temparray2[i] =10;
 				}
@@ -5909,7 +5909,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(12,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(12,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -5986,7 +5986,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -6001,7 +6001,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(13,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(13,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -6081,7 +6081,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -6099,7 +6099,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(14,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(14,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -6182,7 +6182,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -6203,7 +6203,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(15,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(15,-(i+1)))).toFixed(4)));
 				}
 			}
 
@@ -6289,7 +6289,7 @@ function convert(){
 			flag = 0;
 		}
 		else{
-			for(i=1;i<temparray2.length;i++){
+			for(i=0;i<temparray2.length;i++){
 				if(temparray2[i]=='A' || temparray2[i] == 'a'){
 					temparray2[i] = 10;
 				}
@@ -6313,7 +6313,7 @@ function convert(){
 					break;
 				}
 				else{
-					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(16,-i))).toFixed(4)));
+					arrayanswer = (arrayanswer) + parseFloat(((temparray2[i]) * parseFloat((Math.pow(16,-(i+1))).)toFixed(4)));
 				}
 			}
 
